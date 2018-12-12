@@ -6,7 +6,7 @@ def listen():
     recieve()
     return True
 
-def recieve()
+def recieve():
     gp.setmode(gp.BCM)
     gp.setup(16, gp.IN)
 
