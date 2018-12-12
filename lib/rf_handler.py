@@ -13,7 +13,7 @@ def recieve():
     count = 0
 
     while count != 400000000:
-        rcv = gp.input(16):
+        rcv = gp.input(16)
         if rcv == 1:
             count += 1
             print(count)
